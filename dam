@@ -1,0 +1,17 @@
+[33mcommit 8c8cb80dffce4d202401b4bee6a01ac7b370a058[m[33m ([m[1;36mHEAD -> [m[1;32mversion-sass[m[33m, [m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: LuisElizaldeCruz <luis.elizalde.dev@gmail.com>
+Date:   Thu Jun 2 23:56:00 2022 -0500
+
+    se movio la direccion de js
+
+[33mcommit 8a2ba543e22d5d15c9d4d35a3fa04521891b6852[m
+Author: LuisElizaldeCruz <luis.elizalde.dev@gmail.com>
+Date:   Thu Jun 2 00:43:35 2022 -0500
+
+    se agrego el diseño responsivo al contenido
+
+[33mcommit fa7bd70809327424d36f9344d7861d9c3efa176c[m
+Author: LuisElizaldeCruz <luis.elizalde.dev@gmail.com>
+Date:   Wed Jun 1 23:40:21 2022 -0500
+
+    primer commit

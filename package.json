@@ -1,0 +1,23 @@
+{
+  "name": "huddle-landing-page-with-single-introductory-section-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisElizaldeCruz/huddle-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisElizaldeCruz/huddle-landing-page/issues"
+  },
+  "homepage": "https://github.com/LuisElizaldeCruz/huddle-landing-page#readme",
+  "devDependencies": {
+    "sass": "^1.52.3"
+  }
+}
