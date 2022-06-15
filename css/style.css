@@ -5,12 +5,13 @@ body {
   width: auto;
 }
 
-h1 {
-  margin-bottom: 80px;
+.logo {
+  height: 4em;
 }
 
 .contenedor {
   display: flex;
+  margin-top: 30px;
 }
 
 .ventana {
@@ -20,6 +21,7 @@ h1 {
 
 .imagen {
   height: 90%;
+  width: 100%;
 }
 
 .informacion {
@@ -36,10 +38,39 @@ button {
   height: 35px;
   border-radius: 15px;
   border-color: transparent;
-  color: hsl(300deg, 69%, 71%);
+  color: hsl(257deg, 40%, 49%);
 }
 button:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 960px) {
+  .ventana {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    height: 2em;
+  }
+
+  .contenedor {
+    flex-direction: column;
+  }
+
+  .ventana {
+    width: auto;
+    padding: 0 30px;
+  }
+
+  .informacion {
+    width: auto;
+    text-align: center;
+  }
+
+  button {
+    margin: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
