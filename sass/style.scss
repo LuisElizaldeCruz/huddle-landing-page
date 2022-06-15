@@ -10,6 +10,10 @@ body {
     width: auto;
 }
 
+svg{
+    position: absolute
+}
+
 .logo {
 height: 4em;
 }
@@ -17,6 +21,7 @@ height: 4em;
 .contenedor {
     display: flex;
     margin-top: 30px;
+    position: relative;
 }
 
 .ventana {
@@ -49,6 +54,7 @@ button {
         cursor: pointer;
     }
 }
+
 
 @media screen and (max-width:960px){
 
