@@ -1,5 +1,50 @@
+$violet: hsl(257, 40%, 49%);
+$soft-magenta: hsl(300, 69%, 71%);
 
-    $violet: hsl(257, 40%, 49%);
-    $soft-magenta: hsl(300, 69%, 71%);
-    $rojo: blue;
-   
+
+
+body {
+    background-image: url("./images/bg-desktop.svg");
+    background-color: $violet;
+    height: 100vh;
+    width: auto;
+}
+
+h1 {
+    margin-bottom: 80px;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.ventana {
+    width: auto;
+    padding-left: 30px;
+}
+
+.imagen {
+    height: 90%;
+
+}
+
+.informacion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    width: 40%;
+    padding: 30px;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    border-color: transparent;
+    color: $soft-magenta;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
