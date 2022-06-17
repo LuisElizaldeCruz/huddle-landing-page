@@ -47,6 +47,8 @@ button {
 }
 button:hover {
   cursor: pointer;
+  background-color: hsl(300deg, 69%, 71%);
+  color: white;
 }
 
 @media screen and (max-width: 960px) {
